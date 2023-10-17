@@ -1,0 +1,1 @@
+document.querySelector('.anchorHeader').classList.add('js-nav-tab-css')

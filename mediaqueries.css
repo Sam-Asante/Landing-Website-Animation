@@ -1,0 +1,58 @@
+@media screen and (max-width:900px){
+ body{
+    margin: 0;
+    padding: 0;
+ }
+    .navigation-tab{
+        display: none;
+    }
+    .hamburger-nav{
+        display: flex;
+        position: fixed;
+       
+    }
+    .welcome-word{
+        display: flex;
+        font-size: 60px;
+        font-weight: 700px;
+        justify-content: center;
+        top:45%;
+       left: 35px;
+        margin: 0;
+
+    }
+
+    .arts-of-boakye{
+        display: flex;
+        width: 300px;
+        font-size:20px;
+        font-weight: 500;
+        top: 57%;
+        left:40px;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .arts-of-boakye-author{
+        display: inline-block;
+        font-size: 15px;
+        left:220px;
+        top:77%;
+    
+    }
+
+    .first-image-container{
+        display: flex;
+        height: 667px;
+        width: 375px;
+        
+    }
+
+    .first-image{
+        display: flex;
+        width: 380px;
+        height: 380px;
+        object-fit: contain;
+        object-position: top;  
+        }
+}

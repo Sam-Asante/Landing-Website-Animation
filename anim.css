@@ -21,3 +21,6 @@ body {
   gap: 4vmin;
   transform: translate(0%, -50%);
 }
+.animated-container {
+  background-color: aliceblue;
+}
